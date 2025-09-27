@@ -1,0 +1,14 @@
+#-- PostgreSQL Database Configuration
+POSTGRES_URL=postgres://postgres.vebmgpvplgwhdwkvrkcz:x58fSaeo660vfHqr@aws-1-ap-southeast-1.pooler.supabase.com:6543/postgres?sslmode=require&supa=base-pooler.x
+POSTGRES_PRISMA_URL=postgres://postgres.vebmgpvplgwhdwkvrkcz:x58fSaeo660vfHqr@aws-1-ap-southeast-1.pooler.supabase.com:6543/postgres?sslmode=require&pgbouncer=true
+POSTGRES_URL_NON_POOLING=postgres://postgres.vebmgpvplgwhdwkvrkcz:x58fSaeo660vfHqr@aws-1-ap-southeast-1.pooler.supabase.com:5432/postgres?sslmode=require
+POSTGRES_HOST=db.vebmgpvplgwhdwkvrkcz.supabase.co
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=x58fSaeo660vfHqr
+POSTGRES_DATABASE=postgres
+
+#-- Cloudinary Configuration (for image/media storage)
+CLOUDINARY_CLOUD_NAME=dedcmctqk
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=dedcmctqk
+CLOUDINARY_API_KEY=244416163893277
+CLOUDINARY_API_SECRET=dD29IrMNxQ230pCeGhIJVzVEqXk
